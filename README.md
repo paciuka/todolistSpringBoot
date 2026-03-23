@@ -35,3 +35,18 @@ A modern, secure backend application for managing tasks, built with **Java 21** 
     "username": "pac1uk",
     "password": "123123"
 }
+```
+2. Create a Task
+POST /todo (Requires Basic Auth)
+```json
+{
+    "title": "Learn Spring Security Architecture",
+    "done": false
+}
+```
+Get Tasks with Filtering
+GET `/todo?done=true` — Fetch only completed tasks.
+
+GET `/todo?done=false` — Fetch only pending tasks.
+
+GET `/todo — Fetch all` tasks for the authenticated user.
