@@ -50,3 +50,16 @@ GET `/todo?done=true` — Fetch only completed tasks.
 GET `/todo?done=false` — Fetch only pending tasks.
 
 GET `/todo — Fetch all` tasks for the authenticated user.
+🛠 How to Run Locally
+Clone the repository:
+
+```Bash
+git clone [https://github.com/your-username/todo-list-springboot.git](https://github.com/your-username/todo-list-springboot.git)
+```
+Open the project in your favorite IDE (IntelliJ IDEA recommended).
+
+Download dependencies: Let Maven sync all required libraries.
+
+Run the application: Execute the main class TodolistSpringBootApplication.
+
+Access the API: The server starts at http://localhost:8080.
